@@ -5,1045 +5,973 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '免费节点_🏳_NON_1', server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272}
-  - {name: '免费节点_🏳_NON_2', server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: '免费节点_🏳_NON_3', server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: '免费节点_🏳_NON_4', server: 116.163.10.104, port: 19601, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '免费节点_🏳_NON_5', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_6', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_7', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_8', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_9', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_10', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_11', server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272}
-  - {name: '免费节点_🏳_NON_12', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: '免费节点_🏳_NON_13', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_14', server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa}
-  - {name: '免费节点_🏳_NON_15', server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA}
-  - {name: '免费节点_🏳_NON_16', server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272}
-  - {name: '免费节点_🏳_NON_17', server: 185.172.113.156, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '免费节点_🏳_NON_18', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_19', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_20', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_21', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_22', server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '免费节点_🏳_NON_23', server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
-  - {name: '免费节点_🏳_NON_24', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
-  - {name: '免费节点_🏳_NON_25', server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_26', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_27', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_28', server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_29', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_30', server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03}
-  - {name: '免费节点_🏳_NON_31', server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272}
-  - {name: '免费节点_🏳_NON_32', server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9}
-  - {name: '免费节点_🏳_NON_33', server: v.9051246.xyz, port: 443, type: trojan, password: 18825786}
-  - {name: '免费节点_🏳_NON_34', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_35', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_36', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_37', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_38', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_39', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_40', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_41', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_42', server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '免费节点_🏳_NON_43', server: 122.192.189.8, port: 19711, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '免费节点_🏳_NON_44', server: 172.252.64.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '免费节点_🏳_NON_45', server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_46', server: 38.114.114.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_47', server: 38.114.114.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_48', server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_49', server: 38.114.114.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_50', server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_51', server: 38.114.114.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_52', server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_53', server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_54', server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '免费节点_🏳_NON_55', server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: '免费节点_🏳_NON_56', server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_57', server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_58', server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_59', server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_60', server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_61', server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_62', server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_63', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_64', server: 38.68.134.85, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_65', server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_66', server: 38.68.134.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_67', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: '免费节点_🏳_NON_68', server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_69', server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_70', server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: '免费节点_🏳_NON_71', server: 38.68.134.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_72', server: 38.68.134.85, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_73', server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_74', server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_75', server: 38.91.100.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '免费节点_🏳_NON_76', server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_77', server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_78', server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_79', server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_80', server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_81', server: 38.91.100.207, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_82', server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_83', server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_84', server: 38.91.100.207, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_85', server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_86', server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_87', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_88', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '免费节点_🏳_NON_89', server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
-  - {name: '免费节点_🏳_NON_90', server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_91', server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_92', server: 38.91.100.207, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_93', server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_94', server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_95', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_96', server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_97', server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_98', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_99', server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_100', server: 38.91.100.27, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_101', server: 38.91.100.27, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_102', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '免费节点_🏳_NON_103', server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_104', server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_105', server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_106', server: 38.91.100.27, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '免费节点_🏳_NON_107', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: '免费节点_🏳_NON_108', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_109', server: 38.91.100.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_110', server: 38.91.100.207, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_111', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '免费节点_🏳_NON_112', server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_113', server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_114', server: 38.91.100.207, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '免费节点_🏳_NON_115', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '免费节点_🏳_NON_116', server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '免费节点_🏳_NON_117', server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_118', server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_119', server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_120', server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '免费节点_🏳_NON_121', server: 134.195.196.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_122', server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '免费节点_🏳_NON_123', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '免费节点_🏳_NON_124', server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '免费节点_🏳_NON_125', server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_1', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_2', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_3', server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272}
+  - {name: '免费节点_4', server: t7.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_5', server: t6.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_6', server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: '免费节点_7', server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: '免费节点_8', server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '免费节点_9', server: 116.163.10.104, port: 19712, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_10', server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_11', server: 122.192.189.8, port: 19601, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_12', server: 122.192.189.8, port: 19711, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_13', server: 122.192.189.8, port: 19712, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_14', server: ngzyd-1.okex-tradebot.xyz, port: 30008, type: vmess, uuid: 590e8569-c9cf-4eee-a7cb-a3bffb571ae7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_15', server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 590e8569-c9cf-4eee-a7cb-a3bffb571ae7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_16', server: 116.163.10.104, port: 19601, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_17', server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_18', server: 140.179.85.93, port: 20805, type: vmess, uuid: c51ef3cb-c3cf-4af7-ac64-e952edf6b16b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_19', server: ngzyd-1.okex-tradebot.xyz, port: 30000, type: vmess, uuid: 590e8569-c9cf-4eee-a7cb-a3bffb571ae7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_20', server: 120.221.173.65, port: 20808, type: vmess, uuid: c51ef3cb-c3cf-4af7-ac64-e952edf6b16b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: '免费节点_21', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 590e8569-c9cf-4eee-a7cb-a3bffb571ae7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_22', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_23', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: '免费节点_24', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_25', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_26', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_27', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '免费节点_28', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '免费节点_29', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '免费节点_30', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_31', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_32', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_33', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_34', server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272}
+  - {name: '免费节点_35', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: '免费节点_36', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_37', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_38', server: zz.vip341.xyz, port: 32857, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '免费节点_39', server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa}
+  - {name: '免费节点_40', server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA}
+  - {name: '免费节点_41', server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272}
+  - {name: '免费节点_42', server: 185.172.113.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_43', server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '免费节点_44', server: 185.172.113.156, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_45', server: nl-trojan.bonds.id, port: 443, type: trojan, password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272}
+  - {name: '免费节点_46', server: nl-trojan.bonds.id, port: 443, type: trojan, password: 96884680-77e6-11eb-8d67-1239d0255272}
+  - {name: '免费节点_47', server: nl-trojan.bonds.id, port: 443, type: trojan, password: 94af0550-902b-11eb-b135-1239d0255272}
+  - {name: '免费节点_48', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_49', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_50', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_51', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_52', server: 62.216.92.167, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_53', server: t4.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_54', server: t5.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_55', server: t1.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_56', server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_57', server: 217.197.161.166, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_58', server: 217.197.161.166, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_59', server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_60', server: 139.162.51.223, port: 51939, type: vmess, uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '免费节点_61', server: t10.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_62', server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272}
+  - {name: '免费节点_63', server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
+  - {name: '免费节点_64', server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: '免费节点_65', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_66', server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_67', server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_68', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_69', server: 38.68.134.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_70', server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_71', server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '免费节点_72', server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_73', server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_74', server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '免费节点_75', server: 172.99.190.186, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '免费节点_76', server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '免费节点_77', server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_78', server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '免费节点_79', server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '免费节点_80', server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '免费节点_81', server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272}
+  - {name: '免费节点_82', server: t8.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_83', server: v.9051246.xyz, port: 443, type: trojan, password: 18825786}
+  - {name: '免费节点_84', server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9}
+  - {name: '免费节点_85', server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272}
+  - {name: '免费节点_86', server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03}
+  - {name: '免费节点_87', server: t2.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb}
+  - {name: '免费节点_88', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_89', server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_90', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '免费节点_91', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '免费节点_92', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_93', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_94', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '免费节点_95', server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_96', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_97', server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '免费节点_98', server: 198.41.212.234, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: '免费节点_99', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '免费节点_100', server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_101', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '免费节点_102', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_103', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '免费节点_104', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: '免费节点_105', server: 122.192.189.8, port: 19608, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_106', server: 116.163.10.104, port: 19714, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '免费节点_107', server: 188.126.89.174, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4}
+  - {name: '免费节点_108', server: 95.142.161.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uDlqozPwCk4A}
+  - {name: '免费节点_109', server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: '免费节点_110', server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_111', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '免费节点_112', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '免费节点_113', server: 217.197.161.245, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '免费节点_114', server: 38.91.100.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_115', server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '免费节点_116', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1066,131 +994,122 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费节点_🏳_NON_1
-      - 免费节点_🏳_NON_2
-      - 免费节点_🏳_NON_3
-      - 免费节点_🏳_NON_4
-      - 免费节点_🏳_NON_5
-      - 免费节点_🏳_NON_6
-      - 免费节点_🏳_NON_7
-      - 免费节点_🏳_NON_8
-      - 免费节点_🏳_NON_9
-      - 免费节点_🏳_NON_10
-      - 免费节点_🏳_NON_11
-      - 免费节点_🏳_NON_12
-      - 免费节点_🏳_NON_13
-      - 免费节点_🏳_NON_14
-      - 免费节点_🏳_NON_15
-      - 免费节点_🏳_NON_16
-      - 免费节点_🏳_NON_17
-      - 免费节点_🏳_NON_18
-      - 免费节点_🏳_NON_19
-      - 免费节点_🏳_NON_20
-      - 免费节点_🏳_NON_21
-      - 免费节点_🏳_NON_22
-      - 免费节点_🏳_NON_23
-      - 免费节点_🏳_NON_24
-      - 免费节点_🏳_NON_25
-      - 免费节点_🏳_NON_26
-      - 免费节点_🏳_NON_27
-      - 免费节点_🏳_NON_28
-      - 免费节点_🏳_NON_29
-      - 免费节点_🏳_NON_30
-      - 免费节点_🏳_NON_31
-      - 免费节点_🏳_NON_32
-      - 免费节点_🏳_NON_33
-      - 免费节点_🏳_NON_34
-      - 免费节点_🏳_NON_35
-      - 免费节点_🏳_NON_36
-      - 免费节点_🏳_NON_37
-      - 免费节点_🏳_NON_38
-      - 免费节点_🏳_NON_39
-      - 免费节点_🏳_NON_40
-      - 免费节点_🏳_NON_41
-      - 免费节点_🏳_NON_42
-      - 免费节点_🏳_NON_43
-      - 免费节点_🏳_NON_44
-      - 免费节点_🏳_NON_45
-      - 免费节点_🏳_NON_46
-      - 免费节点_🏳_NON_47
-      - 免费节点_🏳_NON_48
-      - 免费节点_🏳_NON_49
-      - 免费节点_🏳_NON_50
-      - 免费节点_🏳_NON_51
-      - 免费节点_🏳_NON_52
-      - 免费节点_🏳_NON_53
-      - 免费节点_🏳_NON_54
-      - 免费节点_🏳_NON_55
-      - 免费节点_🏳_NON_56
-      - 免费节点_🏳_NON_57
-      - 免费节点_🏳_NON_58
-      - 免费节点_🏳_NON_59
-      - 免费节点_🏳_NON_60
-      - 免费节点_🏳_NON_61
-      - 免费节点_🏳_NON_62
-      - 免费节点_🏳_NON_63
-      - 免费节点_🏳_NON_64
-      - 免费节点_🏳_NON_65
-      - 免费节点_🏳_NON_66
-      - 免费节点_🏳_NON_67
-      - 免费节点_🏳_NON_68
-      - 免费节点_🏳_NON_69
-      - 免费节点_🏳_NON_70
-      - 免费节点_🏳_NON_71
-      - 免费节点_🏳_NON_72
-      - 免费节点_🏳_NON_73
-      - 免费节点_🏳_NON_74
-      - 免费节点_🏳_NON_75
-      - 免费节点_🏳_NON_76
-      - 免费节点_🏳_NON_77
-      - 免费节点_🏳_NON_78
-      - 免费节点_🏳_NON_79
-      - 免费节点_🏳_NON_80
-      - 免费节点_🏳_NON_81
-      - 免费节点_🏳_NON_82
-      - 免费节点_🏳_NON_83
-      - 免费节点_🏳_NON_84
-      - 免费节点_🏳_NON_85
-      - 免费节点_🏳_NON_86
-      - 免费节点_🏳_NON_87
-      - 免费节点_🏳_NON_88
-      - 免费节点_🏳_NON_89
-      - 免费节点_🏳_NON_90
-      - 免费节点_🏳_NON_91
-      - 免费节点_🏳_NON_92
-      - 免费节点_🏳_NON_93
-      - 免费节点_🏳_NON_94
-      - 免费节点_🏳_NON_95
-      - 免费节点_🏳_NON_96
-      - 免费节点_🏳_NON_97
-      - 免费节点_🏳_NON_98
-      - 免费节点_🏳_NON_99
-      - 免费节点_🏳_NON_100
-      - 免费节点_🏳_NON_101
-      - 免费节点_🏳_NON_102
-      - 免费节点_🏳_NON_103
-      - 免费节点_🏳_NON_104
-      - 免费节点_🏳_NON_105
-      - 免费节点_🏳_NON_106
-      - 免费节点_🏳_NON_107
-      - 免费节点_🏳_NON_108
-      - 免费节点_🏳_NON_109
-      - 免费节点_🏳_NON_110
-      - 免费节点_🏳_NON_111
-      - 免费节点_🏳_NON_112
-      - 免费节点_🏳_NON_113
-      - 免费节点_🏳_NON_114
-      - 免费节点_🏳_NON_115
-      - 免费节点_🏳_NON_116
-      - 免费节点_🏳_NON_117
-      - 免费节点_🏳_NON_118
-      - 免费节点_🏳_NON_119
-      - 免费节点_🏳_NON_120
-      - 免费节点_🏳_NON_121
-      - 免费节点_🏳_NON_122
-      - 免费节点_🏳_NON_123
-      - 免费节点_🏳_NON_124
-      - 免费节点_🏳_NON_125
+      - 免费节点_1
+      - 免费节点_2
+      - 免费节点_3
+      - 免费节点_4
+      - 免费节点_5
+      - 免费节点_6
+      - 免费节点_7
+      - 免费节点_8
+      - 免费节点_9
+      - 免费节点_10
+      - 免费节点_11
+      - 免费节点_12
+      - 免费节点_13
+      - 免费节点_14
+      - 免费节点_15
+      - 免费节点_16
+      - 免费节点_17
+      - 免费节点_18
+      - 免费节点_19
+      - 免费节点_20
+      - 免费节点_21
+      - 免费节点_22
+      - 免费节点_23
+      - 免费节点_24
+      - 免费节点_25
+      - 免费节点_26
+      - 免费节点_27
+      - 免费节点_28
+      - 免费节点_29
+      - 免费节点_30
+      - 免费节点_31
+      - 免费节点_32
+      - 免费节点_33
+      - 免费节点_34
+      - 免费节点_35
+      - 免费节点_36
+      - 免费节点_37
+      - 免费节点_38
+      - 免费节点_39
+      - 免费节点_40
+      - 免费节点_41
+      - 免费节点_42
+      - 免费节点_43
+      - 免费节点_44
+      - 免费节点_45
+      - 免费节点_46
+      - 免费节点_47
+      - 免费节点_48
+      - 免费节点_49
+      - 免费节点_50
+      - 免费节点_51
+      - 免费节点_52
+      - 免费节点_53
+      - 免费节点_54
+      - 免费节点_55
+      - 免费节点_56
+      - 免费节点_57
+      - 免费节点_58
+      - 免费节点_59
+      - 免费节点_60
+      - 免费节点_61
+      - 免费节点_62
+      - 免费节点_63
+      - 免费节点_64
+      - 免费节点_65
+      - 免费节点_66
+      - 免费节点_67
+      - 免费节点_68
+      - 免费节点_69
+      - 免费节点_70
+      - 免费节点_71
+      - 免费节点_72
+      - 免费节点_73
+      - 免费节点_74
+      - 免费节点_75
+      - 免费节点_76
+      - 免费节点_77
+      - 免费节点_78
+      - 免费节点_79
+      - 免费节点_80
+      - 免费节点_81
+      - 免费节点_82
+      - 免费节点_83
+      - 免费节点_84
+      - 免费节点_85
+      - 免费节点_86
+      - 免费节点_87
+      - 免费节点_88
+      - 免费节点_89
+      - 免费节点_90
+      - 免费节点_91
+      - 免费节点_92
+      - 免费节点_93
+      - 免费节点_94
+      - 免费节点_95
+      - 免费节点_96
+      - 免费节点_97
+      - 免费节点_98
+      - 免费节点_99
+      - 免费节点_100
+      - 免费节点_101
+      - 免费节点_102
+      - 免费节点_103
+      - 免费节点_104
+      - 免费节点_105
+      - 免费节点_106
+      - 免费节点_107
+      - 免费节点_108
+      - 免费节点_109
+      - 免费节点_110
+      - 免费节点_111
+      - 免费节点_112
+      - 免费节点_113
+      - 免费节点_114
+      - 免费节点_115
+      - 免费节点_116
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
