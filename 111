@@ -5,599 +5,599 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 免费节点池_🇰🇷_韩国_1, server: 158.247.203.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_2, server: 158.247.203.168, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_3, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇮🇩_印度尼西亚_4, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_5, server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_6, server: 141.164.56.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_7, server: 141.164.56.250, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_8, server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_9, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_10, server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_11, server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_12, server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_13, server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_14, server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇭🇰_香港_15, server: 62.216.92.179, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_16, server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇻🇳_越南_17, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
-  - {name: 免费节点池_🇭🇰_香港_18, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_19, server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇸🇬_新加坡_20, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_21, server: 172.105.59.32, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇭🇰_香港_22, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_23, server: 172.105.59.32, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇮🇳_印度_24, server: 172.105.59.32, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_25, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_26, server: 38.75.137.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_27, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_28, server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇮🇩_印度尼西亚_29, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 免费节点池_🇨🇳_中国_30, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_31, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_32, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_33, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_34, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_35, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_36, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_37, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_38, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_39, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_40, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_41, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_42, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_43, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_44, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_45, server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_46, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_47, server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_48, server: 38.114.114.67, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_49, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_50, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_51, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_52, server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_53, server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_54, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_55, server: 134.195.196.12, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_56, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_57, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇧🇻_布维岛_58, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_59, server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_60, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_61, server: targoo1.mirror.cn.com, port: 443, type: vmess, uuid: 351b9b77-a6f0-4772-a845-04bed6814563, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: targoo1.mirror.cn.com}, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_62, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇧🇻_布维岛_63, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_64, server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_65, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_66, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_67, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_68, server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_69, server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_70, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_71, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_72, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费节点池_🇧🇻_布维岛_73, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_74, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_75, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_76, server: 142.202.48.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_77, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_78, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇧🇻_布维岛_79, server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇧🇻_布维岛_80, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_81, server: 142.202.48.17, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_82, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_83, server: t3.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_84, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_85, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_86, server: t3.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_87, server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_88, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇷🇺_俄罗斯联邦_89, server: 2.59.214.251, port: 61616, type: vmess, uuid: cf816344-75a3-11ec-9a6d-1ed7ea47e8f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_90, server: t1.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_91, server: t1.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_92, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_93, server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_94, server: 134.195.196.154, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_95, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_96, server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_97, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_98, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_99, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_100, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_101, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_102, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_103, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_104, server: t4.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_105, server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_106, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_107, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_108, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_109, server: v6.ssrsub.com, port: 166, type: vmess, uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
-  - {name: 免费节点池_🇱🇺_卢森堡_110, server: lsb1.tgproxy.wtf, port: 80, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lsb1.tgproxy.wtf}, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_111, server: 212.38.189.174, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_112, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_113, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_114, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_115, server: 212.38.189.174, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_116, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_117, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_118, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_119, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_120, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_121, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_122, server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_123, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_124, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_125, server: 134.195.196.12, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇭🇺_匈牙利_126, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_127, server: 149.7.16.10, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_128, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 免费节点池_🇬🇧_英国_129, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_130, server: 108.165.196.212, port: 2340, type: ss, cipher: aes-256-gcm, password: 81d7d46b9c66c779e81b83bc594df5eb, udp: true}
-  - {name: 免费节点池_🇺🇸_美国_131, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费节点池_🇨🇦_加拿大_132, server: 134.195.196.154, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇪🇬_埃及_133, server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_134, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_135, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_136, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_137, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_138, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_139, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_140, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费节点池_🇰🇷_韩国_141, server: v11.ssrsub.com, port: 166, type: vmess, uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v11.ssrsub.com}, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_142, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费节点池_🇫🇷_法国_143, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 免费节点池_🇨🇿_捷克_144, server: t7.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 长风分享_🇺🇸_美国_1, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 长风分享_🇯🇵_日本_2, server: 5.180.76.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_3, server: 158.247.205.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_4, server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_5, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_6, server: 158.247.199.253, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_7, server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_8, server: 158.247.199.253, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_9, server: 141.164.38.135, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇸🇬_新加坡_10, server: 172.104.44.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇸🇬_新加坡_11, server: 172.104.44.88, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_12, server: 158.247.203.40, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 长风分享_🇸🇬_新加坡_13, server: 172.104.44.88, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_14, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_15, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_16, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_17, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_18, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_19, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_20, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_21, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_22, server: 38.75.136.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_23, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_24, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_25, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_26, server: 38.68.135.19, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_27, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_28, server: 38.68.135.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_29, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_30, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_31, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_32, server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_33, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_34, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇺🇸_美国_35, server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_36, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 长风分享_🇺🇸_美国_37, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_38, server: 169.197.143.157, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_39, server: 169.197.143.157, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 长风分享_🇺🇸_美国_40, server: 169.197.143.157, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇺🇸_美国_41, server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_42, server: 169.197.143.157, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 长风分享_🇺🇸_美国_43, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇰🇷_韩国_44, server: 158.247.203.40, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_45, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_46, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 长风分享_🇺🇸_美国_47, server: 38.68.134.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_48, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_49, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_50, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_51, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_52, server: 169.197.143.157, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_53, server: 169.197.143.157, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_54, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_55, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_56, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_57, server: 169.197.143.157, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_58, server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_59, server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 长风分享_🇺🇸_美国_60, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_61, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_62, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_63, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_64, server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_65, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_66, server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇺🇸_美国_67, server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_68, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_69, server: 169.197.143.157, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_70, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_71, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_72, server: 167.88.63.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_73, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_74, server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_75, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_76, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_77, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_78, server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 长风分享_🇺🇸_美国_79, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_80, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_81, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_82, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_83, server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_84, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_85, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_86, server: 142.202.48.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_87, server: 134.195.196.154, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_88, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_89, server: 66.55.92.75, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ, udp: true}
+  - {name: 长风分享_🇺🇸_美国_90, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_91, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_92, server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇺🇸_美国_93, server: 38.86.135.27, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇺🇸_美国_94, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 长风分享_🇺🇸_美国_95, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_96, server: 134.195.196.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_97, server: 134.195.196.199, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_98, server: 134.195.196.199, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_99, server: 134.195.196.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_100, server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_101, server: 134.195.196.199, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇺🇸_美国_102, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_103, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 长风分享_🇺🇸_美国_104, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_105, server: 134.195.196.52, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_106, server: 134.195.196.52, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 长风分享_🇺🇸_美国_107, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_108, server: 134.195.196.199, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_109, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_110, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_111, server: 38.64.138.145, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_112, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_113, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_114, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇺🇸_美国_115, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_116, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 长风分享_🇺🇸_美国_117, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_118, server: 134.195.196.52, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_119, server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_120, server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_121, server: 134.195.196.52, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 长风分享_🇺🇸_美国_122, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_123, server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_124, server: 38.64.138.145, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_125, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_126, server: 134.195.196.52, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_127, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_128, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_129, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_130, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_131, server: 134.195.196.52, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_132, server: 134.195.196.52, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 长风分享_🇺🇸_美国_133, server: 142.202.48.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 长风分享_🇺🇸_美国_134, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇨🇦_加拿大_135, server: 134.195.196.52, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 长风分享_🇺🇸_美国_136, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 长风分享_🇺🇸_美国_137, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 长风分享_🇺🇸_美国_138, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_139, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇺🇸_美国_140, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 长风分享_🇺🇸_美国_141, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 长风分享_🇺🇸_美国_142, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 长风分享_🇺🇸_美国_143, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 长风分享_🇺🇸_美国_144, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -616,606 +616,603 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇭🇰_香港_22
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1231,150 +1228,150 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费节点池_🇰🇷_韩国_1
-      - 免费节点池_🇰🇷_韩国_2
-      - 免费节点池_🇰🇷_韩国_3
-      - 免费节点池_🇮🇩_印度尼西亚_4
-      - 免费节点池_🇰🇷_韩国_5
-      - 免费节点池_🇰🇷_韩国_6
-      - 免费节点池_🇰🇷_韩国_7
-      - 免费节点池_🇮🇳_印度_8
-      - 免费节点池_🇮🇳_印度_9
-      - 免费节点池_🇮🇳_印度_10
-      - 免费节点池_🇮🇳_印度_11
-      - 免费节点池_🇮🇳_印度_12
-      - 免费节点池_🇮🇳_印度_13
-      - 免费节点池_🇮🇳_印度_14
-      - 免费节点池_🇭🇰_香港_15
-      - 免费节点池_🇮🇳_印度_16
-      - 免费节点池_🇻🇳_越南_17
-      - 免费节点池_🇭🇰_香港_18
-      - 免费节点池_🇮🇳_印度_19
-      - 免费节点池_🇸🇬_新加坡_20
-      - 免费节点池_🇮🇳_印度_21
-      - 免费节点池_🇭🇰_香港_22
-      - 免费节点池_🇮🇳_印度_23
-      - 免费节点池_🇮🇳_印度_24
-      - 免费节点池_🇺🇸_美国_25
-      - 免费节点池_🇺🇸_美国_26
-      - 免费节点池_🇺🇸_美国_27
-      - 免费节点池_🇺🇸_美国_28
-      - 免费节点池_🇮🇩_印度尼西亚_29
-      - 免费节点池_🇨🇳_中国_30
-      - 免费节点池_🇺🇸_美国_31
-      - 免费节点池_🇫🇷_法国_32
-      - 免费节点池_🇺🇸_美国_33
-      - 免费节点池_🇫🇷_法国_34
-      - 免费节点池_🇺🇸_美国_35
-      - 免费节点池_🇺🇸_美国_36
-      - 免费节点池_🇺🇸_美国_37
-      - 免费节点池_🇺🇸_美国_38
-      - 免费节点池_🇺🇸_美国_39
-      - 免费节点池_🇺🇸_美国_40
-      - 免费节点池_🇺🇸_美国_41
-      - 免费节点池_🇺🇸_美国_42
-      - 免费节点池_🇺🇸_美国_43
-      - 免费节点池_🇺🇸_美国_44
-      - 免费节点池_🇺🇸_美国_45
-      - 免费节点池_🇺🇸_美国_46
-      - 免费节点池_🇺🇸_美国_47
-      - 免费节点池_🇺🇸_美国_48
-      - 免费节点池_🇺🇸_美国_49
-      - 免费节点池_🇺🇸_美国_50
-      - 免费节点池_🇨🇦_加拿大_51
-      - 免费节点池_🇺🇸_美国_52
-      - 免费节点池_🇺🇸_美国_53
-      - 免费节点池_🇨🇦_加拿大_54
-      - 免费节点池_🇨🇦_加拿大_55
-      - 免费节点池_🇨🇦_加拿大_56
-      - 免费节点池_🇨🇦_加拿大_57
-      - 免费节点池_🇧🇻_布维岛_58
-      - 免费节点池_🇺🇸_美国_59
-      - 免费节点池_🇺🇸_美国_60
-      - 免费节点池_61
-      - 免费节点池_🇨🇦_加拿大_62
-      - 免费节点池_🇧🇻_布维岛_63
-      - 免费节点池_🇺🇸_美国_64
-      - 免费节点池_🇺🇸_美国_65
-      - 免费节点池_🇺🇸_美国_66
-      - 免费节点池_🇺🇸_美国_67
-      - 免费节点池_🇺🇸_美国_68
-      - 免费节点池_🇨🇦_加拿大_69
-      - 免费节点池_🇺🇸_美国_70
-      - 免费节点池_🇺🇸_美国_71
-      - 免费节点池_🇨🇦_加拿大_72
-      - 免费节点池_🇧🇻_布维岛_73
-      - 免费节点池_🇺🇸_美国_74
-      - 免费节点池_🇨🇦_加拿大_75
-      - 免费节点池_🇺🇸_美国_76
-      - 免费节点池_🇺🇸_美国_77
-      - 免费节点池_🇺🇸_美国_78
-      - 免费节点池_🇧🇻_布维岛_79
-      - 免费节点池_🇧🇻_布维岛_80
-      - 免费节点池_🇺🇸_美国_81
-      - 免费节点池_🇺🇸_美国_82
-      - 免费节点池_🇨🇦_加拿大_83
-      - 免费节点池_🇺🇸_美国_84
-      - 免费节点池_🇨🇦_加拿大_85
-      - 免费节点池_🇨🇦_加拿大_86
-      - 免费节点池_🇺🇸_美国_87
-      - 免费节点池_🇺🇸_美国_88
-      - 免费节点池_🇷🇺_俄罗斯联邦_89
-      - 免费节点池_🇨🇦_加拿大_90
-      - 免费节点池_🇨🇦_加拿大_91
-      - 免费节点池_🇨🇦_加拿大_92
-      - 免费节点池_🇨🇦_加拿大_93
-      - 免费节点池_🇨🇦_加拿大_94
-      - 免费节点池_🇺🇸_美国_95
-      - 免费节点池_🇺🇸_美国_96
-      - 免费节点池_🇺🇸_美国_97
-      - 免费节点池_🇬🇧_英国_98
-      - 免费节点池_🇬🇧_英国_99
-      - 免费节点池_🇺🇸_美国_100
-      - 免费节点池_🇨🇦_加拿大_101
-      - 免费节点池_🇬🇧_英国_102
-      - 免费节点池_🇺🇸_美国_103
-      - 免费节点池_🇨🇦_加拿大_104
-      - 免费节点池_🇨🇦_加拿大_105
-      - 免费节点池_🇨🇦_加拿大_106
-      - 免费节点池_🇨🇦_加拿大_107
-      - 免费节点池_🇨🇦_加拿大_108
-      - 免费节点池_🇺🇸_美国_109
-      - 免费节点池_🇱🇺_卢森堡_110
-      - 免费节点池_🇬🇧_英国_111
-      - 免费节点池_🇬🇧_英国_112
-      - 免费节点池_🇬🇧_英国_113
-      - 免费节点池_🇬🇧_英国_114
-      - 免费节点池_🇬🇧_英国_115
-      - 免费节点池_🇺🇸_美国_116
-      - 免费节点池_🇬🇧_英国_117
-      - 免费节点池_🇬🇧_英国_118
-      - 免费节点池_🇬🇧_英国_119
-      - 免费节点池_🇺🇸_美国_120
-      - 免费节点池_🇨🇦_加拿大_121
-      - 免费节点池_🇨🇦_加拿大_122
-      - 免费节点池_🇺🇸_美国_123
-      - 免费节点池_🇬🇧_英国_124
-      - 免费节点池_🇨🇦_加拿大_125
-      - 免费节点池_🇭🇺_匈牙利_126
-      - 免费节点池_🇬🇧_英国_127
-      - 免费节点池_🇫🇷_法国_128
-      - 免费节点池_🇬🇧_英国_129
-      - 免费节点池_🇺🇸_美国_130
-      - 免费节点池_🇺🇸_美国_131
-      - 免费节点池_🇨🇦_加拿大_132
-      - 免费节点池_🇪🇬_埃及_133
-      - 免费节点池_🇫🇷_法国_134
-      - 免费节点池_🇫🇷_法国_135
-      - 免费节点池_🇫🇷_法国_136
-      - 免费节点池_🇫🇷_法国_137
-      - 免费节点池_🇫🇷_法国_138
-      - 免费节点池_🇫🇷_法国_139
-      - 免费节点池_🇫🇷_法国_140
-      - 免费节点池_🇰🇷_韩国_141
-      - 免费节点池_🇫🇷_法国_142
-      - 免费节点池_🇫🇷_法国_143
-      - 免费节点池_🇨🇿_捷克_144
+      - 长风分享_🇺🇸_美国_1
+      - 长风分享_🇯🇵_日本_2
+      - 长风分享_🇰🇷_韩国_3
+      - 长风分享_🇰🇷_韩国_4
+      - 长风分享_🇰🇷_韩国_5
+      - 长风分享_🇰🇷_韩国_6
+      - 长风分享_🇰🇷_韩国_7
+      - 长风分享_🇰🇷_韩国_8
+      - 长风分享_🇰🇷_韩国_9
+      - 长风分享_🇸🇬_新加坡_10
+      - 长风分享_🇸🇬_新加坡_11
+      - 长风分享_🇰🇷_韩国_12
+      - 长风分享_🇸🇬_新加坡_13
+      - 长风分享_🇺🇸_美国_14
+      - 长风分享_🇺🇸_美国_15
+      - 长风分享_🇺🇸_美国_16
+      - 长风分享_🇺🇸_美国_17
+      - 长风分享_🇺🇸_美国_18
+      - 长风分享_🇺🇸_美国_19
+      - 长风分享_🇺🇸_美国_20
+      - 长风分享_🇺🇸_美国_21
+      - 长风分享_🇺🇸_美国_22
+      - 长风分享_🇺🇸_美国_23
+      - 长风分享_🇺🇸_美国_24
+      - 长风分享_🇺🇸_美国_25
+      - 长风分享_🇺🇸_美国_26
+      - 长风分享_🇺🇸_美国_27
+      - 长风分享_🇺🇸_美国_28
+      - 长风分享_🇺🇸_美国_29
+      - 长风分享_🇺🇸_美国_30
+      - 长风分享_🇺🇸_美国_31
+      - 长风分享_🇺🇸_美国_32
+      - 长风分享_🇺🇸_美国_33
+      - 长风分享_🇺🇸_美国_34
+      - 长风分享_🇺🇸_美国_35
+      - 长风分享_🇺🇸_美国_36
+      - 长风分享_🇺🇸_美国_37
+      - 长风分享_🇺🇸_美国_38
+      - 长风分享_🇺🇸_美国_39
+      - 长风分享_🇺🇸_美国_40
+      - 长风分享_🇺🇸_美国_41
+      - 长风分享_🇺🇸_美国_42
+      - 长风分享_🇺🇸_美国_43
+      - 长风分享_🇰🇷_韩国_44
+      - 长风分享_🇺🇸_美国_45
+      - 长风分享_🇺🇸_美国_46
+      - 长风分享_🇺🇸_美国_47
+      - 长风分享_🇺🇸_美国_48
+      - 长风分享_🇺🇸_美国_49
+      - 长风分享_🇺🇸_美国_50
+      - 长风分享_🇺🇸_美国_51
+      - 长风分享_🇺🇸_美国_52
+      - 长风分享_🇺🇸_美国_53
+      - 长风分享_🇺🇸_美国_54
+      - 长风分享_🇺🇸_美国_55
+      - 长风分享_🇺🇸_美国_56
+      - 长风分享_🇺🇸_美国_57
+      - 长风分享_🇺🇸_美国_58
+      - 长风分享_🇺🇸_美国_59
+      - 长风分享_🇺🇸_美国_60
+      - 长风分享_🇺🇸_美国_61
+      - 长风分享_🇺🇸_美国_62
+      - 长风分享_🇺🇸_美国_63
+      - 长风分享_🇺🇸_美国_64
+      - 长风分享_🇺🇸_美国_65
+      - 长风分享_🇺🇸_美国_66
+      - 长风分享_🇺🇸_美国_67
+      - 长风分享_🇺🇸_美国_68
+      - 长风分享_🇺🇸_美国_69
+      - 长风分享_🇺🇸_美国_70
+      - 长风分享_🇺🇸_美国_71
+      - 长风分享_🇺🇸_美国_72
+      - 长风分享_🇺🇸_美国_73
+      - 长风分享_🇺🇸_美国_74
+      - 长风分享_🇨🇦_加拿大_75
+      - 长风分享_🇨🇦_加拿大_76
+      - 长风分享_🇨🇦_加拿大_77
+      - 长风分享_🇨🇦_加拿大_78
+      - 长风分享_🇺🇸_美国_79
+      - 长风分享_🇨🇦_加拿大_80
+      - 长风分享_🇺🇸_美国_81
+      - 长风分享_🇺🇸_美国_82
+      - 长风分享_🇨🇦_加拿大_83
+      - 长风分享_🇺🇸_美国_84
+      - 长风分享_🇨🇦_加拿大_85
+      - 长风分享_🇺🇸_美国_86
+      - 长风分享_🇨🇦_加拿大_87
+      - 长风分享_🇨🇦_加拿大_88
+      - 长风分享_🇺🇸_美国_89
+      - 长风分享_🇺🇸_美国_90
+      - 长风分享_🇺🇸_美国_91
+      - 长风分享_🇺🇸_美国_92
+      - 长风分享_🇺🇸_美国_93
+      - 长风分享_🇺🇸_美国_94
+      - 长风分享_🇺🇸_美国_95
+      - 长风分享_🇨🇦_加拿大_96
+      - 长风分享_🇨🇦_加拿大_97
+      - 长风分享_🇨🇦_加拿大_98
+      - 长风分享_🇨🇦_加拿大_99
+      - 长风分享_🇨🇦_加拿大_100
+      - 长风分享_🇨🇦_加拿大_101
+      - 长风分享_🇺🇸_美国_102
+      - 长风分享_🇨🇦_加拿大_103
+      - 长风分享_🇺🇸_美国_104
+      - 长风分享_🇨🇦_加拿大_105
+      - 长风分享_🇨🇦_加拿大_106
+      - 长风分享_🇺🇸_美国_107
+      - 长风分享_🇨🇦_加拿大_108
+      - 长风分享_🇺🇸_美国_109
+      - 长风分享_🇺🇸_美国_110
+      - 长风分享_🇺🇸_美国_111
+      - 长风分享_🇨🇦_加拿大_112
+      - 长风分享_🇺🇸_美国_113
+      - 长风分享_🇺🇸_美国_114
+      - 长风分享_🇺🇸_美国_115
+      - 长风分享_🇺🇸_美国_116
+      - 长风分享_🇺🇸_美国_117
+      - 长风分享_🇨🇦_加拿大_118
+      - 长风分享_🇨🇦_加拿大_119
+      - 长风分享_🇺🇸_美国_120
+      - 长风分享_🇨🇦_加拿大_121
+      - 长风分享_🇺🇸_美国_122
+      - 长风分享_🇨🇦_加拿大_123
+      - 长风分享_🇺🇸_美国_124
+      - 长风分享_🇨🇦_加拿大_125
+      - 长风分享_🇨🇦_加拿大_126
+      - 长风分享_🇺🇸_美国_127
+      - 长风分享_🇨🇦_加拿大_128
+      - 长风分享_🇨🇦_加拿大_129
+      - 长风分享_🇺🇸_美国_130
+      - 长风分享_🇨🇦_加拿大_131
+      - 长风分享_🇨🇦_加拿大_132
+      - 长风分享_🇺🇸_美国_133
+      - 长风分享_🇺🇸_美国_134
+      - 长风分享_🇨🇦_加拿大_135
+      - 长风分享_🇺🇸_美国_136
+      - 长风分享_🇺🇸_美国_137
+      - 长风分享_🇺🇸_美国_138
+      - 长风分享_🇺🇸_美国_139
+      - 长风分享_🇺🇸_美国_140
+      - 长风分享_🇺🇸_美国_141
+      - 长风分享_🇺🇸_美国_142
+      - 长风分享_🇺🇸_美国_143
+      - 长风分享_🇺🇸_美国_144
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
