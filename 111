@@ -5,255 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 免费 🇮🇩 印度尼西亚 1, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 免费 🇺🇸 美国 2, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 3, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 4, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 5, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费 🇺🇸 美国 6, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 7, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇺🇸 美国 8, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 9, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 10, server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 11, server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 12, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 13, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费 🇺🇸 美国 14, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 15, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 16, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 17, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 18, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 19, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇺🇸 美国 20, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 21, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇺🇸 美国 22, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 23, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 24, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 25, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 26, server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 27, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 28, server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 29, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 30, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 31, server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 32, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 33, server: 38.68.135.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 34, server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 免费 🇺🇸 美国 35, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇨🇦 加拿大 36, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇺🇸 美国 37, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇨🇦 加拿大 38, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇨🇦 加拿大 39, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇨🇦 加拿大 40, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇨🇦 加拿大 41, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇨🇦 加拿大 42, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 43, server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇺🇸 美国 44, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 45, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 46, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇺🇸 美国 47, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 免费 🇺🇸 美国 48, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 免费 🇺🇸 美国 49, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇺🇸 美国 50, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 免费 🇨🇦 加拿大 51, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇺🇸 美国 52, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 免费 🇨🇦 加拿大 53, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 免费 🇨🇦 加拿大 54, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇨🇦 加拿大 55, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇨🇦 加拿大 56, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 免费 🇨🇦 加拿大 57, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 免费 🇫🇷 法国 58, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 免费 1, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 免费 2, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 免费 3, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 免费 4, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国 免费 5, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大 免费 6, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 免费 7, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 免费 8, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 免费 9, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 免费 10, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 免费 11, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国 免费 12, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 免费 13, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 免费 14, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 免费 15, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 免费 16, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国 免费 17, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 免费 18, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 免费 19, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 免费 20, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 免费 21, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 免费 22, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 免费 23, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 免费 24, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 免费 25, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 免费 26, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 法国 免费 27, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 免费 28, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大 免费 29, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 免费 30, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 印度尼西亚 免费 31, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,64 +164,37 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -340,191 +205,110 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -540,64 +324,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费 🇮🇩 印度尼西亚 1
-      - 免费 🇺🇸 美国 2
-      - 免费 🇺🇸 美国 3
-      - 免费 🇺🇸 美国 4
-      - 免费 🇺🇸 美国 5
-      - 免费 🇺🇸 美国 6
-      - 免费 🇺🇸 美国 7
-      - 免费 🇺🇸 美国 8
-      - 免费 🇺🇸 美国 9
-      - 免费 🇺🇸 美国 10
-      - 免费 🇺🇸 美国 11
-      - 免费 🇺🇸 美国 12
-      - 免费 🇺🇸 美国 13
-      - 免费 🇺🇸 美国 14
-      - 免费 🇺🇸 美国 15
-      - 免费 🇺🇸 美国 16
-      - 免费 🇺🇸 美国 17
-      - 免费 🇺🇸 美国 18
-      - 免费 🇺🇸 美国 19
-      - 免费 🇺🇸 美国 20
-      - 免费 🇺🇸 美国 21
-      - 免费 🇺🇸 美国 22
-      - 免费 🇺🇸 美国 23
-      - 免费 🇺🇸 美国 24
-      - 免费 🇺🇸 美国 25
-      - 免费 🇺🇸 美国 26
-      - 免费 🇺🇸 美国 27
-      - 免费 🇺🇸 美国 28
-      - 免费 🇺🇸 美国 29
-      - 免费 🇺🇸 美国 30
-      - 免费 🇺🇸 美国 31
-      - 免费 🇺🇸 美国 32
-      - 免费 🇺🇸 美国 33
-      - 免费 🇺🇸 美国 34
-      - 免费 🇺🇸 美国 35
-      - 免费 🇨🇦 加拿大 36
-      - 免费 🇺🇸 美国 37
-      - 免费 🇨🇦 加拿大 38
-      - 免费 🇨🇦 加拿大 39
-      - 免费 🇨🇦 加拿大 40
-      - 免费 🇨🇦 加拿大 41
-      - 免费 🇨🇦 加拿大 42
-      - 免费 🇺🇸 美国 43
-      - 免费 🇺🇸 美国 44
-      - 免费 🇺🇸 美国 45
-      - 免费 🇺🇸 美国 46
-      - 免费 🇺🇸 美国 47
-      - 免费 🇺🇸 美国 48
-      - 免费 🇺🇸 美国 49
-      - 免费 🇺🇸 美国 50
-      - 免费 🇨🇦 加拿大 51
-      - 免费 🇺🇸 美国 52
-      - 免费 🇨🇦 加拿大 53
-      - 免费 🇨🇦 加拿大 54
-      - 免费 🇨🇦 加拿大 55
-      - 免费 🇨🇦 加拿大 56
-      - 免费 🇨🇦 加拿大 57
-      - 免费 🇫🇷 法国 58
+      - 美国 免费 1
+      - 美国 免费 2
+      - 美国 免费 3
+      - 美国 免费 4
+      - 美国 免费 5
+      - 加拿大 免费 6
+      - 美国 免费 7
+      - 美国 免费 8
+      - 美国 免费 9
+      - 加拿大 免费 10
+      - 美国 免费 11
+      - 美国 免费 12
+      - 美国 免费 13
+      - 加拿大 免费 14
+      - 美国 免费 15
+      - 美国 免费 16
+      - 美国 免费 17
+      - 加拿大 免费 18
+      - 美国 免费 19
+      - 加拿大 免费 20
+      - 美国 免费 21
+      - 加拿大 免费 22
+      - 美国 免费 23
+      - 加拿大 免费 24
+      - 加拿大 免费 25
+      - 加拿大 免费 26
+      - 法国 免费 27
+      - 加拿大 免费 28
+      - 加拿大 免费 29
+      - 加拿大 免费 30
+      - 印度尼西亚 免费 31
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
