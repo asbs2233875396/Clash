@@ -5,83 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "Tokyo, SS", server: ss-node-1.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, udp: true}
-  - {name: "Incheon, SS", server: ss-node-2.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, udp: true}
-  - {name: "Singapore, SS", server: ss-node-3.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, udp: true}
-  - {name: "Hongkong, SS", server: ss-node-4.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, udp: true}
-  - {name: "California, SS", server: ss-node-5.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, udp: true}
-  - {name: "Tokyo, Tj", server: tj-node-1.gfwairport.net, port: 50001, type: trojan, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, sni: tj-node-1.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "Incheon, Tj", server: tj-node-2.gfwairport.net, port: 50001, type: trojan, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, sni: tj-node-2.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "Singapore, Tj", server: tj-node-3.gfwairport.net, port: 50001, type: trojan, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, sni: tj-node-3.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "Hongkong, Tj", server: tj-node-4.gfwairport.net, port: 50001, type: trojan, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, sni: tj-node-4.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "California, Tj", server: tj-node-5.gfwairport.net, port: 50001, type: trojan, password: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, sni: tj-node-5.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "Tokyo, V2", server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1.GFWAIRPORT.NET}, udp: true}
-  - {name: "Incheon, V2", server: V2-NODE-2.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-2.GFWAIRPORT.NET}, udp: true}
-  - {name: "Singapore, V2", server: V2-NODE-3.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-3.GFWAIRPORT.NET}, udp: true}
-  - {name: "Hongkong, V2", server: V2-NODE-4.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-4.GFWAIRPORT.NET}, udp: true}
-  - {name: "California, V2", server: V2-NODE-5.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 1a8b3a3e-174e-4484-b92b-f4ebc1368ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-5.GFWAIRPORT.NET}, udp: true}
+  - {name: 11_86_ss_64, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: IPLC 🇸🇬SG, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com, udp: true}
+  - {name: IPLC 🇭🇰HK, server: iepl03.123ccc.xyz, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +52,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -125,62 +65,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +100,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Tokyo, SS
-      - Incheon, SS
-      - Singapore, SS
-      - Hongkong, SS
-      - California, SS
-      - Tokyo, Tj
-      - Incheon, Tj
-      - Singapore, Tj
-      - Hongkong, Tj
-      - California, Tj
-      - Tokyo, V2
-      - Incheon, V2
-      - Singapore, V2
-      - Hongkong, V2
-      - California, V2
+      - 11_86_ss_64
+      - IPLC 🇸🇬SG
+      - IPLC 🇭🇰HK
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
