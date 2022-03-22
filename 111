@@ -5,35 +5,195 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 11_86_ss_64, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: IPLC 🇸🇬SG, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com, udp: true}
-  - {name: IPLC 🇭🇰HK, server: iepl03.123ccc.xyz, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com, udp: true}
+  - {name: US_5001 @WangCai_1, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5500 @WangCai_1, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_6679 @WangCai_1, server: 38.75.137.66, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_7001 @WangCai_1, server: 38.75.137.66, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7002 @WangCai_1, server: 38.75.137.66, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8000 @WangCai_1, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8009 @WangCai_1, server: 38.75.137.66, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8080 @WangCai_1, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.75.137.66, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8119 @WangCai_1, server: 38.75.137.66, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8881 @WangCai_1, server: 38.75.137.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8888 @WangCai_1, server: 38.75.137.66, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_9101 @WangCai_1, server: 38.75.137.66, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_9102 @WangCai_1, server: 38.75.137.66, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_7306 @WangCai_1, server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_5500 @WangCai_1 2, server: 38.75.137.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5001 @WangCai_1 2, server: 38.75.137.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_0443 @WangCai_1, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_6679 @WangCai_1 2, server: 38.75.137.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_5601 @WangCai_1, server: 38.75.137.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_6379 @WangCai_1, server: 38.75.137.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_6697 @WangCai_1, server: 38.75.137.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_7002 @WangCai_1 2, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8881 @WangCai_1 2, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8119 @WangCai_1 2, server: 38.75.137.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_7001 @WangCai_1 2, server: 38.75.137.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_9102 @WangCai_1 2, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_8118 @WangCai_1 2, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8009 @WangCai_1 2, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8008 @WangCai_1, server: 38.75.137.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_9101 @WangCai_1 2, server: 38.75.137.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧, server: 52.232.130.180, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧, server: 51.12.89.247, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.7, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF, server: 158.247.208.102, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧, server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF, server: 158.247.208.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧, server: 20.25.107.72, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧, server: 20.203.137.25, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,9 +212,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -65,26 +265,146 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +420,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 11_86_ss_64
-      - IPLC 🇸🇬SG
-      - IPLC 🇭🇰HK
+      - US_5001 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_6679 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_8080 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9101 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5500 @WangCai_1 2
+      - US_5001 @WangCai_1 2
+      - US_0443 @WangCai_1
+      - US_6679 @WangCai_1 2
+      - US_5601 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8881 @WangCai_1 2
+      - US_8119 @WangCai_1 2
+      - US_7001 @WangCai_1 2
+      - US_9102 @WangCai_1 2
+      - US_8118 @WangCai_1 2
+      - US_8009 @WangCai_1 2
+      - US_8008 @WangCai_1
+      - US_9101 @WangCai_1 2
+      - :美国-ss-142.202.48.7:2375-可用-直连-仅支持美国地区NF自制剧
+      - :加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
+      - :德国-ss-51.12.89.247:500-可用-直连-仅支持瑞典地区NF自制剧
+      - :美国-ss-142.202.48.7:7306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8882-可用-直连-完全不支持NF
+      - :美国-ss-38.75.137.66:7306-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3389-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-142.202.48.7:3306-可用-直连-仅支持美国地区NF自制剧
+      - :韩国-ss-158.247.208.102:8008-可用-直连-完全不支持NF
+      - :美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-38.75.137.66:8091-可用-直连-仅支持美国地区NF自制剧
+      - :美国-ss-20.203.137.25:500-可用-直连-仅支持瑞士地区NF自制剧
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
