@@ -5,51 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JH俄罗斯-公益-01|北方用户|电信CN2|GRPC, server: jhru.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: jhru.xsus.xyz, grpc-opts: {grpc-service-name: jhru.xsus.xyz}, udp: true}
-  - {name: AZ日本-公益-01|直连|GRPC, server: azjp03.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp03.xsus.xyz, grpc-opts: {grpc-service-name: azjp03.xsus.xyz}, udp: true}
-  - {name: AZ日本-公益-02|直连|GRPC, server: azjp04.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp04.xsus.xyz, grpc-opts: {grpc-service-name: azjp04.xsus.xyz}, udp: true}
-  - {name: 不限时全国内中转机场：liki.cc, server: dpus.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: dpus.xsus.xyz, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
-  - {name: DP美国-公益-01|GRPC|上联中转, server: shcu4.forgebukkit.com, port: 13650, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: shcu4.forgebukkit.com, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
-  - {name: VM美国-公益-01, server: vmus.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: vmus.xsus.xyz, grpc-opts: {grpc-service-name: vmus.xsus.xyz}, udp: true}
-  - {name: US美国-公益-01|解锁Disney, server: bvus.xsus.xyz, port: 443, type: vmess, uuid: 777511de-9c34-4a83-8f52-a724416e2d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xsus, ws-headers: {Host: bvus.xsus.xyz}, udp: true}
+  - {name: JH俄罗斯-公益-01, server: jhru.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: jhru.xsus.xyz, grpc-opts: {grpc-service-name: jhru.xsus.xyz}, udp: true}
+  - {name: AZ日本-公益-01, server: azjp03.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp03.xsus.xyz, grpc-opts: {grpc-service-name: azjp03.xsus.xyz}, udp: true}
+  - {name: AZ日本-公益-02, server: azjp04.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp04.xsus.xyz, grpc-opts: {grpc-service-name: azjp04.xsus.xyz}, udp: true}
+  - {name: DP美国-公益-01|上联中转, server: shcu4.forgebukkit.com, port: 13650, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: shcu4.forgebukkit.com, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
+  - {name: DP美国-公益-01, server: dpus.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: dpus.xsus.xyz, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
+  - {name: VM美国-公益-01, server: vmus.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: vmus.xsus.xyz, grpc-opts: {grpc-service-name: vmus.xsus.xyz}, udp: true}
+  - {name: US美国-公益-01, server: bvus.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xsus, ws-headers: {Host: bvus.xsus.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,13 +68,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,38 +85,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JH俄罗斯-公益-01|北方用户|电信CN2|GRPC
-      - AZ日本-公益-01|直连|GRPC
-      - AZ日本-公益-02|直连|GRPC
-      - 不限时全国内中转机场：liki.cc
-      - DP美国-公益-01|GRPC|上联中转
+      - JH俄罗斯-公益-01
+      - AZ日本-公益-01
+      - AZ日本-公益-02
+      - DP美国-公益-01|上联中转
+      - DP美国-公益-01
       - VM美国-公益-01
-      - US美国-公益-01|解锁Disney
+      - US美国-公益-01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
