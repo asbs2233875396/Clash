@@ -6,8 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: JH俄罗斯-公益-01, server: jhru.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: jhru.xsus.xyz, grpc-opts: {grpc-service-name: jhru.xsus.xyz}, udp: true}
-  - {name: AZ日本-公益-01, server: azjp03.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp03.xsus.xyz, grpc-opts: {grpc-service-name: azjp03.xsus.xyz}, udp: true}
-  - {name: AZ日本-公益-02, server: azjp04.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: azjp04.xsus.xyz, grpc-opts: {grpc-service-name: azjp04.xsus.xyz}, udp: true}
+  - {name: Oracle-日本-公益-01|Netflix, server: jgwjp.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: jgwjp.xsus.xyz, grpc-opts: {grpc-service-name: jgwjp.xsus.xyz}, udp: true}
   - {name: DP美国-公益-01|上联中转, server: shcu4.forgebukkit.com, port: 13650, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: shcu4.forgebukkit.com, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
   - {name: DP美国-公益-01, server: dpus.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: dpus.xsus.xyz, grpc-opts: {grpc-service-name: dpus.xsus.xyz}, udp: true}
   - {name: VM美国-公益-01, server: vmus.xsus.xyz, port: 443, type: vmess, uuid: 290ff41f-5655-47fc-b2f4-dfd8d6cf5426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: vmus.xsus.xyz, grpc-opts: {grpc-service-name: vmus.xsus.xyz}, udp: true}
@@ -19,8 +18,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -31,8 +29,7 @@ proxy-groups:
     interval: 300
     proxies:
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -44,8 +41,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -69,8 +65,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -86,8 +81,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -98,8 +92,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -111,8 +104,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
@@ -133,8 +125,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JH俄罗斯-公益-01
-      - AZ日本-公益-01
-      - AZ日本-公益-02
+      - Oracle-日本-公益-01|Netflix
       - DP美国-公益-01|上联中转
       - DP美国-公益-01
       - VM美国-公益-01
