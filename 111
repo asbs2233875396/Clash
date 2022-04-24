@@ -5,109 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"timeVPN~🇳🇱~NL~荷兰_1","server":"nl.timevpn.com","port":48793,"type":"ss","country":"timeVPN~🇳🇱~NL~荷兰_1","cipher":"aes-256-cfb","password":"KhepCrf"}
-  - {"name":"timeVPN~🇳🇱~NL~荷兰_2","server":"nl.timevpn.com","port":19305,"type":"ss","country":"timeVPN~🇳🇱~NL~荷兰_2","cipher":"aes-256-cfb","password":"EhJvKGh"}
-  - {"name":"timeVPN~🇬🇧~GB~英国_3","server":"uk.timevpn.com","port":52550,"type":"ss","country":"timeVPN~🇬🇧~GB~英国_3","cipher":"aes-256-cfb","password":"rzKntrb"}
-  - {"name":"timeVPN~🇳🇱~NL~荷兰_4","server":"nl.timevpn.com","port":29118,"type":"ss","country":"timeVPN~🇳🇱~NL~荷兰_4","cipher":"aes-256-cfb","password":"5WLhTxH"}
-  - {"name":"timeVPN~🇳🇱~NL~荷兰_5","server":"nl.timevpn.com","port":47679,"type":"ss","country":"timeVPN~🇳🇱~NL~荷兰_5","cipher":"aes-256-cfb","password":"3cb6WwX"}
-  - {"name":"timeVPN~🇨🇦~CA~加拿大_6","server":"ca.timevpn.com","port":35338,"type":"ss","country":"timeVPN~🇨🇦~CA~加拿大_6","cipher":"aes-256-cfb","password":"8EkvUQL"}
-  - {"name":"timeVPN~🇳🇴~NO~挪威_7","server":"se.timevpn.com","port":54019,"type":"ss","country":"timeVPN~🇳🇴~NO~挪威_7","cipher":"aes-256-cfb","password":"HZUkvGH"}
-  - {"name":"timeVPN~🇷🇺~RU~俄罗斯联邦_8","server":"ru.timevpn.com","port":31752,"type":"ss","country":"timeVPN~🇷🇺~RU~俄罗斯联邦_8","cipher":"aes-256-cfb","password":"LGdurnj"}
-  - {"name":"timeVPN~🇺🇦~UA~乌克兰_9","server":"ua.timevpn.com","port":41985,"type":"ss","country":"timeVPN~🇺🇦~UA~乌克兰_9","cipher":"aes-256-cfb","password":"Yu8p9gw"}
-  - {"name":"timeVPN~🇨🇦~CA~加拿大_10","server":"ca.timevpn.com","port":54759,"type":"ss","country":"timeVPN~🇨🇦~CA~加拿大_10","cipher":"aes-256-cfb","password":"HLQNNBZ"}
+  - {"name":"timeVPN~🇩🇪~DE~德国_1","server":"de.timevpn.com","port":40886,"type":"ss","country":"timeVPN~🇩🇪~DE~德国_1","cipher":"aes-256-cfb","password":"3gxKgFH"}
+  - {"name":"timeVPN~🇩🇪~DE~德国_2","server":"de.timevpn.com","port":52416,"type":"ss","country":"timeVPN~🇩🇪~DE~德国_2","cipher":"aes-256-cfb","password":"X7KY3Vw"}
+  - {"name":"timeVPN~🇩🇪~DE~德国_3","server":"de.timevpn.com","port":33287,"type":"ss","country":"timeVPN~🇩🇪~DE~德国_3","cipher":"aes-256-cfb","password":"kqMxQtq"}
+  - {"name":"timeVPN~🇩🇪~DE~德国_4","server":"de.timevpn.com","port":31898,"type":"ss","country":"timeVPN~🇩🇪~DE~德国_4","cipher":"aes-256-cfb","password":"HpKgUsn"}
+  - {"name":"timeVPN~🇩🇪~DE~德国_5","server":"de.timevpn.com","port":57964,"type":"ss","country":"timeVPN~🇩🇪~DE~德国_5","cipher":"aes-256-cfb","password":"4upRcFW"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,16 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - timeVPN~🇳🇱~NL~荷兰_1
-      - timeVPN~🇳🇱~NL~荷兰_2
-      - timeVPN~🇬🇧~GB~英国_3
-      - timeVPN~🇳🇱~NL~荷兰_4
-      - timeVPN~🇳🇱~NL~荷兰_5
-      - timeVPN~🇨🇦~CA~加拿大_6
-      - timeVPN~🇳🇴~NO~挪威_7
-      - timeVPN~🇷🇺~RU~俄罗斯联邦_8
-      - timeVPN~🇺🇦~UA~乌克兰_9
-      - timeVPN~🇨🇦~CA~加拿大_10
+      - timeVPN~🇩🇪~DE~德国_1
+      - timeVPN~🇩🇪~DE~德国_2
+      - timeVPN~🇩🇪~DE~德国_3
+      - timeVPN~🇩🇪~DE~德国_4
+      - timeVPN~🇩🇪~DE~德国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
